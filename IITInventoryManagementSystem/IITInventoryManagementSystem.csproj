@@ -286,9 +286,13 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\Startup.Auth.cs" />
     <Compile Include="Controllers\AccountController.cs" />
+    <Compile Include="Controllers\CartController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\ItemController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
+    <Compile Include="Controllers\RequisitionController.cs" />
     <Compile Include="Controllers\RolesAdminController.cs" />
+    <Compile Include="Controllers\SectorController.cs" />
     <Compile Include="Controllers\UserAdminController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -317,6 +321,16 @@
     <Compile Include="Models\UserDetails.cs" />
     <Compile Include="Models\Voucher.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Repositories\CartRepo.cs" />
+    <Compile Include="Repositories\CategoryRepo.cs" />
+    <Compile Include="Repositories\ItemArrivalRepo.cs" />
+    <Compile Include="Repositories\ItemCategoryRepo.cs" />
+    <Compile Include="Repositories\ItemRepo.cs" />
+    <Compile Include="Repositories\RequisedItemRepo.cs" />
+    <Compile Include="Repositories\RequisitionSlipRepo.cs" />
+    <Compile Include="Repositories\SectorRepo.cs" />
+    <Compile Include="Repositories\UserDetailsRepo.cs" />
+    <Compile Include="Repositories\VoucherRepo.cs" />
     <Compile Include="Startup.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -326,6 +340,13 @@
     <EmbeddedResource Include="Migrations\201703271845296_InitialAllTableCreation.resx">
       <DependentUpon>201703271845296_InitialAllTableCreation.cs</DependentUpon>
     </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Services\" />
+    <Folder Include="Views\Cart\" />
+    <Folder Include="Views\Item\" />
+    <Folder Include="Views\Requisition\" />
+    <Folder Include="Views\Sector\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
