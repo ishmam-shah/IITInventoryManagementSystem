@@ -294,16 +294,9 @@
     <Compile Include="Controllers\RolesAdminController.cs" />
     <Compile Include="Controllers\SectorController.cs" />
     <Compile Include="Controllers\UserAdminController.cs" />
+    <Compile Include="DAL\UnitOfWork.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201703271100136_InitialCreate.cs" />
-    <Compile Include="Migrations\201703271100136_InitialCreate.Designer.cs">
-      <DependentUpon>201703271100136_InitialCreate.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201703271845296_InitialAllTableCreation.cs" />
-    <Compile Include="Migrations\201703271845296_InitialAllTableCreation.Designer.cs">
-      <DependentUpon>201703271845296_InitialAllTableCreation.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
@@ -331,18 +324,15 @@
     <Compile Include="Repositories\SectorRepo.cs" />
     <Compile Include="Repositories\UserDetailsRepo.cs" />
     <Compile Include="Repositories\VoucherRepo.cs" />
+    <Compile Include="Services\CartService.cs" />
+    <Compile Include="Services\ItemService.cs" />
+    <Compile Include="Services\RequisitionService.cs" />
+    <Compile Include="Services\SectorService.cs" />
     <Compile Include="Startup.cs" />
+    <Compile Include="ViewModel\GetCategory.cs" />
+    <Compile Include="ViewModel\RequestDto.cs" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Migrations\201703271100136_InitialCreate.resx">
-      <DependentUpon>201703271100136_InitialCreate.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201703271845296_InitialAllTableCreation.resx">
-      <DependentUpon>201703271845296_InitialAllTableCreation.cs</DependentUpon>
-    </EmbeddedResource>
-  </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Services\" />
     <Folder Include="Views\Cart\" />
     <Folder Include="Views\Item\" />
     <Folder Include="Views\Requisition\" />

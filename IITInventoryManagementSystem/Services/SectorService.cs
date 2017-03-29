@@ -5,7 +5,7 @@ using System.Web;
 
 namespace IITInventoryManagementSystem.Services
 {
-    public class Sector
+    public class SectorService
     {
     }
 }

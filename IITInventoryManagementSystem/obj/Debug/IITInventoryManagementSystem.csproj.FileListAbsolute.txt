@@ -80,6 +80,3 @@ H:\WorkSpace\asp.net mvc\IITInventoryManagementSystem\IITInventoryManagementSyst
 H:\WorkSpace\asp.net mvc\IITInventoryManagementSystem\IITInventoryManagementSystem\obj\Debug\IITInventoryManagementSystem.csprojResolveAssemblyReference.cache
 H:\WorkSpace\asp.net mvc\IITInventoryManagementSystem\IITInventoryManagementSystem\obj\Debug\IITInventoryManagementSystem.dll
 H:\WorkSpace\asp.net mvc\IITInventoryManagementSystem\IITInventoryManagementSystem\obj\Debug\IITInventoryManagementSystem.pdb
-H:\WorkSpace\asp.net mvc\IITInventoryManagementSystem\IITInventoryManagementSystem\obj\Debug\IITInventoryManagementSystem.Migrations.InitialCreate.resources
-H:\WorkSpace\asp.net mvc\IITInventoryManagementSystem\IITInventoryManagementSystem\obj\Debug\IITInventoryManagementSystem.csproj.GenerateResource.Cache
-H:\WorkSpace\asp.net mvc\IITInventoryManagementSystem\IITInventoryManagementSystem\obj\Debug\IITInventoryManagementSystem.Migrations.InitialAllTableCreation.resources
